@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -6,10 +7,10 @@ const Navbar = () => {
       <nav className="flex items-center justify-between px-20 py-5 border-b border-gray-700">
         <h1>NEXT.js</h1>
         <ul className="flex gap-10">
-          <li>Home</li>
+            <Link href="/" >Home</Link>
           <li>Contact</li>
           <li>Services</li>
-          <li>About</li>
+          <Link href="/about">About</Link>
         </ul>
       </nav>
     </>
