@@ -13,10 +13,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
       <body className={inter.className}>
-          <Navbar />
-          {children}
-          <Footer />
+          
+            <Navbar />
+              {children}
+            <Footer />
       </body>
     </html>
   );
