@@ -93,7 +93,7 @@ export default function Home() {
                                 stroke-linejoin="round"
                             />
                         </svg>
-                        <p className="ml-3 text-sm text-white">Secured & safe online payment</p>
+                        <p>HEllo world</p>
                     </div>
                 </div>
             </div>
